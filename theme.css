@@ -1,0 +1,36 @@
+.dark-theme .skills,
+.dark-theme .portfolio,
+.dark-theme .video,
+.dark-theme .price,
+.dark-theme .padding-container,
+.dark-theme .title-container {
+    transition: 0.2s;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.dark-theme .title-2-level::after,
+.dark-theme .title-2-level::before {
+    border-color: #000000;
+}
+
+.dark-theme .dark-button {
+    color:#000000
+}
+.dark-theme .btn-active {
+    color: #ffffff
+}
+
+@media (max-width:768px) {
+    .dark-theme .navigation {
+        background-color: #ffffff;
+    }
+    .dark-theme .nav-link{
+        color:#000000;
+    }
+    .dark-theme .active::before,
+
+    .dark-theme .active::after {
+        background-color: #000000;
+    }
+}
